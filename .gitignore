@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Build output (PyInstaller / Inno Setup) ---
+# Release installers are attached to GitHub Releases, never committed.
+build/
+dist/
+*.spec
+release/
+installer/Output/
+
+# --- Local app data / personal config (never publish) ---
+config.json
+config.json.*
+error.log
+*.log
+fake_localappdata/
+
+# --- Temp & OS / editor files ---
+*.tmp
+*.bak
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.code-workspace
